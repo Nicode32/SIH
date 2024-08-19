@@ -1,0 +1,83 @@
+body ,html{
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("istockphoto-511119416-612x612.jpg");
+    background-size: cover;
+
+}
+.back{
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+    
+}
+.booking{
+    background-color:rgba(255,255,255,0.5) ;
+    padding:20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    margin:0 auto;
+    border: solid black 0.5px;
+
+}
+.booking h2{
+    text-align: center;
+    font-weight: 700;
+    
+    
+
+}
+.booking form{
+    display: flex;
+    flex-direction: column;
+
+}
+.booking input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.booking button:hover{
+    background-color: transparent;
+    background-color: brightness(40%);
+    border: 1px solid yellow;
+    box-shadow: 0 0 10px;
+    font-size: medium;
+    color: black;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 22px;
+    height: 100px;
+    margin: 0 0 0 50px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: blueviolet;
+}
+.footer a{
+    margin-left:100px ;
+}
+.footer a:hover{
+border: white solid 2px;
+}
